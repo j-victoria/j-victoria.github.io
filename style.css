@@ -1,0 +1,141 @@
+h1 {
+    font-family: 'Snippet', sans-serif;
+    font-size: 72px;
+}
+h2 {
+    font-family: 'Snippet', sans-serif;
+    font-size: 32px;
+}
+h3 {
+    font-family: 'Snippet', sans-serif;
+    font-size: 24px;
+    display: inline;
+}
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    background-color: black;
+}
+
+#mainbody {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+    text-align: left;
+}
+
+.button {
+    padding: 5px;
+    background-color: white;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    display:inline;
+    font-size: 20px;
+    line-height: 200%;
+    
+}
+.button:hover {
+    background-color: black;
+    color: white;
+}
+.social {
+    height: 50px;
+    width: 50px;
+    display:inline;
+    padding: 5px;
+    
+}
+.social:hover {
+    background-color: white;
+}
+#current {
+    border: thin solid black;
+}
+ul {
+    list-style-type: square;
+}
+.il1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+.il2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+.il2:hover{
+    color:black;
+}
+.readmore{
+    
+}
+.readmore:hover{
+    color:black;
+}
+.subtitle {
+    font-family: 'Raleway', sans-serif;
+    font-size: small;
+    color:grey;
+}
+
+.splash {
+    font-size: 500px;
+}
+#email {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    display: none;
+}
+#phone{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    display: none;
+}
+#descriptionAr {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    display: none;
+    padding: 5px;
+}
+#descriptionML {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    display: none;
+    padding: 5px;
+}
+#descriptionPL {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    display: none;
+    padding: 5px;
+}
+#descriptionAlgo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    display: none;
+    padding: 5px;
+}
+#descriptionSE {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    display: none;
+    padding: 5px;
+}
+#descriptionOs {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    display: none;
+    padding: 5px;
+}
