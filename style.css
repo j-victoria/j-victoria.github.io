@@ -139,3 +139,27 @@ ul {
     display: none;
     padding: 5px;
 }
+#descriptionSDS {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    display: none;
+    padding: 5px;
+}
+#descriptionOOP {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    display: none;
+    padding: 5px;
+}
+#descriptionDS {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    display: none;
+    padding: 5px;
+}
+#descriptionDM {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    display: none;
+    padding: 5px;
+}

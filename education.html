@@ -26,23 +26,27 @@
     <h2>Education</h2>
     <h3>Binghamton University</h3>
     <p>Master of Science in Computer Science</p>
-    <p>GPA: 3.42</p>
+    <p>GPA: 3.71</p>
     <ul>
         <li class = "il1">Spring 2017</li>
         <ul class = "il2">
-            <li>Advanced Object Oriented Programming</li>
-            <li>Intro to Data Mining</li>
-            <li>Smart Devices and Sensing</li>
-            <li>Seminar on Data Science</li>
+            <a class="readmore" onclick="toggle_visibility('descriptionOOP');"><li>Advanced Object Oriented Programming</li></a>
+            <div id="descriptionOOP">Object-oriented programming and its concomitant design patterns provide rich abstractions for program development. These programs will eventually execute on real hardware, however. This course will investigate advanced object-oriented techniques and how they interact with hardware and operating system issues. We will ground our topics in C++, but the goal of the course will be develop understanding that can be applied across languages. We will examine different design techniques for things such as memory management, and explore how and why they differ in performance and robustness. We will also cover idioms such as "Resource Acquisition Is Initialization" (RAII) and how they can be used to provide robust resource management for exceptions (exception safety). We will also devote time to covering generic programming and related topics such as expression templates. This is a growing area that seeks to decouple algorithms and data structures through the use of templates and other meta-programming techniques. These techniques exploit the fact that the C++ template mechanism is a language-within-a-language that is executed at compile-time rather than run-time. Additional topics include dynamic linking for techniques such as "plug-ins", template instantiation mechanisms, template specialization, idioms for memory management, thread-safety issues, thread-safety, C++ reflection. </div>
+            <a class="readmore" onclick="toggle_visibility('descriptionDM');"><li>Intro to Data Mining</li></a>
+            <div id="descriptionDM">Basic topics of data mining, including data preprocessing, mining association rules, classification rules, clustering rules, post processing and mining in unstructured data. </div>
+            <a class="readmore" onclick="toggle_visibility('descriptionSDS');"><li>Smart Devices and Sensing</li></a>
+            <div id="descriptionSDS">This course aims to provide in-depth coverage of distributed sensing based on smart devices and ubiquitous computing. Fundamentals and state of the art developments, such as various ubiquitous computing systems and smart-sensing applications, human-computer interactions, context-aware systems, internet of things and security/privacy in intelligent systems, will be included. The goal of the course is to provide a solid technological and research foundation in the area of smart sensing and internet of things. Course will involve readings and discussion of classic and new papers on emerging topics in smart device based ubiquitous computing system research. In addition, students will gain hands-on experience in applying the technology to practice on off-the-shelf mobile devices. </div>
+            <a class="readmore" onclick="toggle_visibility('descriptionDS');"><li>Seminar on Data Science</li></a>
+            <div id="descriptionDS">No Description Available...</div>
         </ul>
         <li class = "il1">Fall 2016</li>
         <ul class = "il2">
             <a class="readmore" onclick="toggle_visibility('descriptionML');"><li>Intro to Machine Learning</li></a>
-            <div id="descriptionML"></div>
+            <div id="descriptionML">Intro to Machine Learning This course provides a broad introduction to machine learning and its applications. Major topics include: supervised learning (generative/discriminative learning, parametric/non-parametric learning, support vector machines); computational learning theory (bias/variance tradeoffs, VC theory, large margins); unsupervised learning; semi-supervised learning; reinforcement learning. The course will give students the basic ideas and intuition behind different techniques as well as a more formal understanding of how and why they work. The course will also discuss recent applications of machine learning, such as to data mining, bioinformatics, and information retrieval.</div>
             <a class="readmore"  onclick="toggle_visibility('descriptionAr');"><li >Computer Architecture & Organization</li></a>
             <div id = "descriptionAr">Pipelined processors: basic theory, instruction pipelines, multifunction units, dynamic instruction scheduling, branch handling, precise interrupts. Compiler techniques for enhancing ILP. Pipelined vector machines. Superscalar, VLIW and EPIC architectures. High-speed memory system design. Overview of parallel/multiprocessor architectures: SIMD/MIMD systems, interconnection networks, synchronization and cache coherence. </div>
-            <a onclick="toggle_visibility('descriptionPL');"><li>Programming Languages</li></a>
-            <div class="readmore"  id="descriptionPL">Selected topics in programming languages and alternative programming paradigms. Functional and imperative languages. Logic programming and object-oriented programming paradigms. Languages for concurrent computation. Semantics of programming languages.</div>
+            <a  class="readmore"  onclick="toggle_visibility('descriptionPL');"><li>Programming Languages</li></a>
+            <div id="descriptionPL">Selected topics in programming languages and alternative programming paradigms. Functional and imperative languages. Logic programming and object-oriented programming paradigms. Languages for concurrent computation. Semantics of programming languages.</div>
         </ul>
         
         <li class = "il1">Spring 2016</li>
